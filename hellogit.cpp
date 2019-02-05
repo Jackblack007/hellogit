@@ -36,6 +36,19 @@ int main ()
 
 	for ( char ch: str1)
 		cout<<ch;
+	
+	auto i = 0;
+
+	auto x = 0u;
+
+	auto c = str1[2];
+
+	auto a = v1;
+
+	for(auto v: v1 )
+		cout<<v;
+
 	return 0;
+
 }
 
